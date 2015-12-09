@@ -1,0 +1,32 @@
+// Zen Chipmunk Syntax: Syntax Variables
+// ---------------------------------------------
+// Defines all syntax variables
+
+@import "colors";
+
+// General colors
+@syntax-text-color: @main-light;
+@syntax-cursor-color: @main-light;
+@syntax-selection-color: darken(@main-dark, 8%);
+@syntax-background-color: @main-darkest;
+
+// Guide colors
+@syntax-wrap-guide-color: @main-mid;
+@syntax-indent-guide-color: @main-dark;
+@syntax-invisible-character-color: @main-dark;
+
+// For find and replace markers
+@syntax-result-marker-color: @main-mid;
+@syntax-result-marker-color-selected: @yellow;
+
+// Gutter colors
+@syntax-gutter-text-color: @blue;
+@syntax-gutter-text-color-selected: @syntax-gutter-text-color;
+@syntax-gutter-background-color: @main-darkest;
+@syntax-gutter-background-color-selected: darken(@main-darkest, 5%);
+
+// For git diff info. i.e. in the gutter
+@syntax-color-renamed: @blue;
+@syntax-color-added: @green;
+@syntax-color-modified: @orange;
+@syntax-color-removed: @red;

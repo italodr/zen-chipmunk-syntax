@@ -1,0 +1,17 @@
+{
+  "name": "zen-chipmunk-syntax",
+  "theme": "syntax",
+  "version": "1.0.0",
+  "description": "A calming zen syntax theme. Based on Rain syntax. Matches Rain UI",
+  "keywords": [
+    "zen",
+    "syntax",
+    "atom",
+    "theme"
+  ],
+  "repository": "https://github.com/italodr/zen-chipmunk-syntax.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.50.0 <2.0.0"
+  }
+}
