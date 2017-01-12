@@ -1,7 +1,7 @@
 {
   "name": "zen-chipmunk-syntax",
   "theme": "syntax",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "A calming zen syntax theme. Based on Rain syntax. Matches Rain UI and Atom Material",
   "keywords": [
     "zen",
