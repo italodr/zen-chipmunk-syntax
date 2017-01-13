@@ -1,17 +1,9 @@
 .syntax--source.syntax--php {
-  .syntax--storage.syntax--class {
-      color: @purple;
-  }
-  .syntax--support.syntax--class {
-      color: @blue;
-  }
-  .syntax--entity.syntax--namespace {
-      color: @yellow;
-  }
-  .syntax--entity.syntax--name.syntax--class {
-      color: lighten(@orange, 5%);
-  }
+    .syntax--constant { color: lighten(@purple, 8%); }
+    .syntax--storage.syntax--class { color: @purple; }
+    .syntax--support.syntax--class { color: @blue; }
+    .syntax--entity.syntax--namespace { color: @yellow; }
+    .syntax--entity.syntax--name.syntax--class { color: lighten(@orange, 5%); }
+    .syntax--function-call { color: @salmon; }
 }
-.syntax--keyword.syntax--other.syntax--new.syntax--php {
-    color: lighten(@orange, 5%);
-}
+.syntax--keyword.syntax--other.syntax--new.syntax--php { color: lighten(@orange, 5%); }
